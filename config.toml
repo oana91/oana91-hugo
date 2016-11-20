@@ -1,25 +1,52 @@
+# Site settings
 baseurl = "mrtobe.github.io"
-languageCode = "en"
-title = "Tobias Schmidt's Tech Blog"
-theme = "hemingway"
-copyright = "&copy; <a href=\"https://github.com/mrtobe\">Tobias Schmidt</a> 2016"
-disqusShortname = ""
+languageCode = "en-us"
+title = "Tobias Schmidt"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
 
 [params]
+	name = "Tobias Schmidt"
+	description = "This site is a portal and blog of Tobias Schmidt's online presence "
+	bio = "Blog - Live - Code"
+	# Enter optionally your twitter account
+	twitter = ""
+	enableRSS = true
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
 
-[[params.social]]
-url = "https://github.com/mrtobe"
-fa_icon = "fa-github"
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
 
-[[params.social]]
-url = "https://www.linkedin.com/in/tobias-schmidt-565b6396"
-fa_icon = "fa-linkedin"
+	# Navigation links
+	home = ""
+	about = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "Tech geek"
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    linkedin = "https://de.linkedin.com/in/tobias-schmidt-565b6396"
+    github   = "https://github.com/mrtobe/"
+
