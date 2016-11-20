@@ -1,4 +1,4 @@
-baseurl = "https://tobias-schmidt.site"
+baseurl = "https://tobias-schmidt.site/"
 languageCode = "en"
 title = "Tobias Schmidt's Blog"
 theme = "hemingway"
