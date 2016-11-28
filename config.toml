@@ -1,6 +1,6 @@
-baseurl = "https://tobias-schmidt.site/"
+baseurl = "http://tobias-schmidt.site/"
 languageCode = "en"
-title = "Tobias Schmidt's Blog"
+title = "Tobias Schmidt"
 theme = "hemingway"
 copyright = "&copy; <a href=\"https://github.com/mrtobe\">Tobias Schmidt</a> 2016"
 disqusShortname = ""
