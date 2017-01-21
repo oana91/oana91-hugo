@@ -3,14 +3,14 @@ languageCode = "en"
 title = "Tobias Schmidt"
 theme = "hemingway"
 copyright = "&copy; <a href=\"https://github.com/mrtobe\">Tobias Schmidt</a> 2016"
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "tobias-schmidt-site"
+googleAnalytics = "UA-90615094-1"
 
 [params]
 
 [params.highlight]
 style = "github"
-languages = ["go", "dockerfile"]
+languages = ["go", "javascript", "bash", "dockerfile"]
 
 [[params.social]]
 url = "https://github.com/mrtobe"
