@@ -1,25 +1,24 @@
-baseurl = "http://tobias-schmidt.site/"
-languageCode = "en"
-title = "Tobias Schmidt"
-theme = "hemingway"
-copyright = "&copy; <a href=\"https://github.com/mrtobe\">Tobias Schmidt</a> 2016"
-disqusShortname = "tobias-schmidt-site"
-googleAnalytics = "UA-90615094-1"
+languageCode = "en-us"
+title = "Oana Schmidt"
+baseurl = "http://oana-schmidt.de/"
+theme = "aerial"
 
 [params]
-
-[params.highlight]
-style = "github"
-languages = ["go", "javascript", "bash", "dockerfile"]
-
-[[params.social]]
-url = "https://github.com/mrtobe"
-fa_icon = "fa-github"
+  name = "Oana Schmidt"
+  about = "Medical Student &nbsp;&bull;&nbsp; Photographer"
+  copyright = "Oana Schmidt"
 
 [[params.social]]
-url = "https://de.linkedin.com/in/tobias-schmidt-565b6396"
-fa_icon = "fa-linkedin"
+  medium = "Instagram"
+  icon = "instagram"
+  link = "#"
 
 [[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+  medium = "Github"
+  icon = "github"
+  link = "github.com/oana91"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:oa.negulescu@googlemail.com"

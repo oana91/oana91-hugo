@@ -1,4 +1,4 @@
-# mrtobe.github.io
+# oana91.github.io
 
-Tobias Schmidt's personal GitHub page hugo repo.
+Oana Schmidt's personal GitHub page hugo repo.
 
